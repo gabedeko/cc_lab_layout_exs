@@ -17,6 +17,10 @@
 .item4 { 
     background-color: #98D9C2;
     grid-area: right;
+    background-image: url('https://picsum.photos/id/1/200/300');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
  }
 .item5 { 
     background-color: #F19A3E;
@@ -25,6 +29,7 @@
 
 .grid-container {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
     'header header header header header header'
     'menu main main main right right'
